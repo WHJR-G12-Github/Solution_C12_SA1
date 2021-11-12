@@ -44,7 +44,7 @@ class Pipe:
     def move(self):
         # Decrementing the value of 'self.tpipe.x'
         self.tpipe.x-=2
-         # Decrementing the value of 'self.bpipe.x'
+        # Decrementing the value of 'self.bpipe.x'
         self.bpipe.x-=2
 bird1=Bird()
 # Creating an object 'pipe1' for the 'Pipe' class by passing x-coordinate value as the argument
